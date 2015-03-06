@@ -1,5 +1,7 @@
-Please see the wiki pages for instructions on how to install and use.
+This repository is an adaptation from the epsilonorion roscopter version.  This version of roscopter is for the Olin College of Engineering and Ocean Alliance "SnotBot" project.
 
-Note that there is a mavlink submodule included in this repository that may need updated at certain times.
+The goal of the project is to control one or multiple multirotors during an autonomous marine mission to collect whale snot.  
 
-Please feel free to write about any problems or suggestions and I will be happy to add them to the code.
+The adjustments to Roscopter made in this repo version include specific scripts to control multirotors with specific behaviors of interest, and scripts to launch multiple air vehicles at once.
+
+This is currently a work in progress.  For specific downloading instructions, we recommend using the epsilonorion repository.
