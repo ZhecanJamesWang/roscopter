@@ -80,7 +80,7 @@ autonomous_enable = False
 
 ##******************************************************************************
 # Auto Pilot defines for use throughout the code.  These are custom modes
-# defined in teh ArduCopter or ArduRover Code under the defines.h file
+# defined in the ArduCopter or ArduRover Code under the defines.h file
 #*******************************************************************************
 if (opts.type == "ArduCopter"):
     STABILIZE = 0                     # hold level position
@@ -1161,8 +1161,8 @@ if __name__ == '__main__':
     try:
         # initially clear waypoints and start mainloop
         clear_waypoints()
-#        if (opts.enable_ros_failsafe):
-#            rospy.Timer(rospy.Duration(1), ros_failsafe_check)        
+        if (opts.enable_ros_failsafe):
+            rospy.Timer(rospy.Duration(1), ros_failsafe_check)        
         mainloop()
     except rospy.ROSInterruptException: pass
     
